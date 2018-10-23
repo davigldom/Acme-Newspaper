@@ -1,0 +1,201 @@
+/* common.css
+ *
+ * Copyright (C) 2017 Universidad de Sevilla
+ * 
+ * The use of this project is hereby constrained to the conditions of the 
+ * TDG Licence, a copy of which you may download from 
+ * http://www.tdg-seville.info/License.html
+ * 
+ */
+ #body {
+	font-family: 'Abel', sans-serif; 
+	text-align: center; 
+	margin:0px 0px 0px 0px;
+	background-color: #F7F5EF;
+}
+  .background{
+	padding-top:1%;
+	width:60%;
+	margin:auto;
+	-webkit-border-radius: 10px 5px;
+ }
+ .chirp{
+ 	text-align:center;
+	width:98%;
+	margin:auto;
+	background-color:#2a2a2a;
+	-webkit-border-radius: 10px 5px;
+ }
+ 
+  #moment{
+  	float:right;
+ 	display:inline-block;
+ 	margin-right:1%;
+ 	color:white;
+	font-size:10pt;	
+ }
+ 
+ #name{
+ 	text-decoration:none;
+ 	float:left;
+ 	margin-left:1%;
+ 	padding-top:1.4%;
+ 	color:white;
+	font-size:15pt;	
+	transition:0.5s;
+ }
+ 
+ #name:hover{
+ 	color:#28D2DE; 	
+ }
+ #title{
+ 	display:inline-block;
+ 	margin:0;
+ 	padding-top:1.4%;
+ 	color:white;
+	font-size:13pt;	
+	transition:0.5s;
+ }
+ 
+  #text{
+   	display:inline-block;
+/*   	margin:0; */
+ 	padding-bottom:2%;
+ 	color:white;
+	font-size:11pt;	
+	transition:0.5s;
+ }
+ 
+	#delete{
+ 	text-decoration:none;
+  	float:right;
+ 	margin-right:1%;
+ 	margin-top:-3%;
+ 	color:white;
+	font-size:15pt;	
+	transition:0.5s;
+	}
+	
+		#delete:hover{
+ 	text-decoration:none;
+ 	float:right;
+ 	margin-right:1%;
+ 	margin-top:-4%;
+ 	color:#E42525;
+	font-size:xx-large;	
+	}a
+
+#menu{
+	font-size:20px !important;
+ 	font-family: 'Abel', sans-serif; 
+	list-style: none;
+    width: 35%;
+    text-align: center;
+	display: table;
+	margin: auto;
+	padding: 0px;
+	background-color: #322f32;
+}
+
+#menu li{
+	width:25%;
+	display: table-cell;
+	background-color: #322f32;
+	margin: 0px;
+	display: inline-block;
+}
+
+#menu li a {
+	text-align:center;
+	padding: 10px;
+	display: block;
+	background-color: transparent;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#menu li a:hover{
+	color:#7CAFB7 ;
+	transition: 0.5s;
+
+}
+
+.error {
+	color: red;
+	font-weight: bolder;
+}
+
+.message {
+	color: red;
+	font-weight: bolder;
+}
+
+
+
+#banner{
+	float:left; 
+	width:100%;
+	margin:0px 0px 0px 0px;
+}
+
+#languages{
+	text-align:left; 
+	margin-left:8px;
+}
+
+#banner {
+	background-color: #F3E2A9;
+}
+
+#articleSummary {
+	width: 80%;
+	margin: auto;
+	text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    font-size: large;
+}
+
+#articleBody {
+	width: 80%;
+	margin: auto;
+	text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+}
+
+#messageBody {
+	width: 80%;
+	margin: auto;
+	text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+}
+
+#search {
+	display: block;
+	float: right;
+	margin-right: 10%;
+}
+
+.cortar{
+	margin: auto;
+	width: 80%;
+	text-overflow:ellipsis;
+	white-space:nowrap; 
+	overflow:hidden;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	transition: all 1s;
+	text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+}
+
+.cortar:hover {
+	width: 80%;
+	white-space: initial;
+	overflow: visible;
+	cursor: pointer;
+}

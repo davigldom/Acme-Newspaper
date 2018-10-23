@@ -1,0 +1,105 @@
+/* jmenu.css
+ *
+ * Copyright (C) 2017 Universidad de Sevilla
+ * 
+ * The use of this project is hereby constrained to the conditions of the 
+ * TDG Licence, a copy of which you may download from 
+ * http://www.tdg-seville.info/License.html
+ * 
+ */
+
+.jMenu {
+	font-size:20px !important;
+	font-family: 'Lobster', cursive;
+/* 	font-family: 'Abel', sans-serif; */
+	list-style: none;
+    width: 100%;
+    text-align: left;
+	display: table;
+	margin: 0px;
+	padding: 0px;
+	background-color: #322f32;
+}
+
+/* First level */
+
+.jMenu li {
+	width:12%;
+	display: table-cell;
+	background-color: #322f32;
+	margin: 0px;
+	display: inline-block;
+}
+
+.jMenu li a {
+	text-align:center;
+	padding: 10px;
+	display: block;
+	background-color: transparent;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.jMenu li a:hover{
+	color:#7CAFB7 ;
+	transition: 0.5s;
+
+}
+
+
+
+#logout{
+	float:right;
+}
+/* Lower levels */
+
+.jMenu li ul {
+	display: none;
+	position: absolute;
+	z-index: 9999;
+	padding: 0;
+	margin: 0;
+}
+
+.jMenu li ul li {
+	background-color: #322f32;
+	display: block;
+	border-bottom: 1px solid #484548;
+	padding: 0;
+}
+
+.jMenu li ul li.arrow {
+	background-color: #322f32;
+	background-image: url('../images/arrow_down.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 6px;
+	padding: 0;
+	border-bottom: none;
+	padding-bottom: 10px
+}
+
+.jMenu li ul li a {
+	text-transform: none;
+	padding: 7px;
+	display: block;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	text-decoration: none;
+}
+
+.jMenu li ul li a.isParent {
+	background-color: #3a3a3a;
+	background-image: url('../images/arrow_right.png');
+	background-repeat: no-repeat;
+	background-position: right center;
+	text-decoration: none;
+}
+
+.jMenu li ul li a:hover {
+	background-color: #514c52;
+	border-top: 1px solid #322f32;
+	border-bottom: 1px solid #322f32;
+	text-decoration: none;
+}

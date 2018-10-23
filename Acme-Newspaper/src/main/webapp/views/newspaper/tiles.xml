@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- 
+ * tiles.xml
+ *
+ * Copyright (C) 2017 Universidad de Sevilla
+ * 
+ * The use of this project is hereby constrained to the conditions of the 
+ * TDG Licence, a copy of which you may download from 
+ * http://www.tdg-seville.info/License.html
+ -->
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+       
+<tiles-definitions>
+
+	<definition name="newspaper/create" extends="master.page">	
+		<put-attribute name="title" value="Create a newspaper" />
+		<put-attribute name="body" value="/views/newspaper/edit.jsp" />
+	</definition>
+	
+	<definition name="newspaper/display" extends="master.page">	
+		<put-attribute name="title" value="" />
+		<put-attribute name="body" value="/views/newspaper/display.jsp" />
+	</definition>
+	
+	<definition name="newspaper/edit" extends="master.page">	
+		<put-attribute name="title" value="Edit a newspaper" />
+		<put-attribute name="body" value="/views/newspaper/edit.jsp" />
+	</definition>
+	
+	<definition name="newspaper/list" extends="master.page">
+		<put-attribute name="title" value="Newspapers list" />
+		<put-attribute name="body" value="/views/newspaper/list.jsp" />
+	</definition>
+	
+	<definition name="newspaper/listCreated" extends="master.page">
+		<put-attribute name="title" value="Created newspapers list" />
+		<put-attribute name="body" value="/views/newspaper/list.jsp" />
+	</definition>
+	
+		
+</tiles-definitions>
